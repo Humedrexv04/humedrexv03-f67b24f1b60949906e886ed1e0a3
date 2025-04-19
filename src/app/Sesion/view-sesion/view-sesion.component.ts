@@ -5,7 +5,7 @@ import { IonicModule } from '@ionic/angular';
 @Component({
   selector: 'app-view-sesion',
   templateUrl: './view-sesion.component.html',
-  styleUrls: ['./view-sesion.component.scss'],
+  styleUrl: './view-sesion.component.css',
   imports:[IonicModule]
 })
 export class ViewSesionComponent  implements OnInit {

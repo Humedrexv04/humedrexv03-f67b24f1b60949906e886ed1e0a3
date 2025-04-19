@@ -10,7 +10,7 @@ import { AuthService } from '../../../Services/auth.service';
 @Component({
   selector: 'app-edit-plant',
   templateUrl: './edit-plant.component.html',
-  styleUrls: ['./edit-plant.component.css'],
+  styleUrl: './edit-plant.component.css',
   imports:[IonicModule, FormsModule, NgIf]
 })
 export class EditPlantComponent implements OnInit {

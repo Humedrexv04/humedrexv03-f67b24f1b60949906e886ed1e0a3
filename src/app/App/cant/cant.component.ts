@@ -8,7 +8,7 @@ import { CommonModule, NgIf } from '@angular/common';
 @Component({
   selector: 'app-cant',
   templateUrl: './cant.component.html',
-  styleUrls: ['./cant.component.css'],
+  styleUrl: './cant.component.css',
   imports: [IonicModule, CommonModule]
 })
 export class CantComponent implements OnInit, OnDestroy {

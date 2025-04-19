@@ -8,7 +8,7 @@ import { NgIf } from '@angular/common';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
-  styleUrls: ['./register.component.css'],
+  styleUrl: './register.component.css',
   imports: [IonicModule, FormsModule, NgIf]
 })
 export class RegisterComponent implements OnInit {

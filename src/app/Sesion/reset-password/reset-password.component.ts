@@ -10,7 +10,7 @@ import { caretBack } from 'ionicons/icons';
 @Component({
   selector: 'app-reset-password',
   templateUrl: './reset-password.component.html',
-  styleUrls: ['./reset-password.component.scss'],
+  styleUrl: './reset-password.component.css',
   standalone: true, // Asegúrate de que el componente sea standalone
   imports: [NgIf, IonicModule, FormsModule], // Importa los módulos necesarios
 })

@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
   selector: 'app-view',
   imports: [IonicModule],
   templateUrl: './view.component.html',
-  styleUrls: ['./view.component.css']
+  styleUrl: './view.component.css'
 })
 export class ViewComponent {
   route = inject(Router);

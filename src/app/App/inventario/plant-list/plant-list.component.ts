@@ -10,7 +10,7 @@ import { NgFor } from '@angular/common';
   selector: 'app-plant-list',
   imports: [IonicModule, PlantaItemComponent, NgFor],
   templateUrl: './plant-list.component.html',
-  styleUrls: ['./plant-list.component.css'],
+  styleUrl: './plant-list.component.css',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class PlantListComponent implements OnInit {

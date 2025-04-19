@@ -8,7 +8,7 @@ import { NgIf } from '@angular/common';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css'],
+  styleUrl: './login.component.css',
   imports: [IonicModule, FormsModule, NgIf],
 })
 export class LoginComponent implements OnInit {

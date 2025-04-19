@@ -14,7 +14,7 @@ import { Esp32Service } from '../../Services/esp32.service';
   standalone: true, // Agregar si usas Angular standalone components
   imports: [FormsModule, IonicModule, CommonModule],
   templateUrl: './add.component.html',
-  styleUrls: ['./add.component.css']
+  styleUrl: './add.component.css'
 })
 export class AddComponent {
   img: string = '';

@@ -14,7 +14,7 @@ import { Observable } from 'rxjs';
   selector: 'app-plant-detail',
   imports: [IonicModule, NgIf],
   templateUrl: './plant-detail.component.html',
-  styleUrls: ['./plant-detail.component.css']
+  styleUrl: './plant-detail.component.css'
 })
 export class PlantDetailComponent implements OnInit {
   @Input() plant!: Plant;
