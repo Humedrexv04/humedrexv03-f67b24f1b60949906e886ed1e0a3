@@ -1,5 +1,11 @@
 /* Variables globales para el tema claro */
 
+
+@import '@ionic/angular/css/core.css';
+@import '@ionic/angular/css/normalize.css';
+@import '@ionic/angular/css/structure.css';
+@import '@ionic/angular/css/typography.css';
+
 :root {
     /* Colores principales */
     --primary-green: #2d6a4f;
